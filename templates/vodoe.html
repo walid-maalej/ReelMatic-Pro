@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ahla vodoe</title>
+</head>
+<body>
+	<video width="360" height="640" controls>
+      <source src= {{url_for('static', filename=videoName)}} type=video/mp4>
+    </video>
+    <form action={{url_for('deleteVideo', vid=vid)}} method="get">
+ <p><button type="submit" 	>delete</button></p>
+
+	
+
+   
+</body>
+</html>
